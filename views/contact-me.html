@@ -7,18 +7,24 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Contact Me</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact-me">Contact Me</a></li>
+<body class="flex flex-col items-center min-h-screen">
+    <header class="bg-violet-400 w-full text-white font-semibold text-xl p-3">
+        <nav class="flex list-none justify-center md:gap-20 gap-10">
+            <li class="hover:underline decoration-solid decoration-2">
+                <a href="/">Home</a>
+            </li>
+            <li class="hover:underline decoration-solid decoration-2">
+                <a href="/about">About</a>
+            </li>
+            <li class="hover:underline decoration-solid decoration-2">
+                <a href="/contact-me">Contact Me</a>
+            </li>
         </nav>
     </header>
-    <main>
+    <main class="flex-1 bg-violet-100 w-full flex justify-center items-center text-neutral-700 text-2xl font-bold">
         <h1>Contact Page</h1>
     </main>
-    <footer>    
+    <footer class="bg-violet-400 w-full text-white font-semibold text-center p-2">    
         Copyright  &copy; elk15 2023
     </footer>
 </body>
